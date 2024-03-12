@@ -6,7 +6,7 @@ import {ETHShares} from "@ai-protocol/embedded-liquidity-contracts/contracts/bon
 import {ERC20Shares}  from "@ai-protocol/embedded-liquidity-contracts/contracts/bonding_curves/ERC20Shares.sol";
 import {HoldersRewardsDistributorV1} from  "@ai-protocol/holders-rewards-distributor-contracts/contracts/bonding_curves/HoldersRewardsDistributorV1.sol";
 
-import "@lazy-sol/access-control-upgradeable/contracts/UpgradeableAccessControl.sol";
+import "@ai-protocol/access-control-upgradeable/contracts/UpgradeableAccessControl.sol";
 import "@openzeppelin/contracts/proxy/Clones.sol";
 import "@openzeppelin/contracts-upgradeable/utils/cryptography/draft-EIP712Upgradeable.sol";
 
